@@ -7,10 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Define IRANSansX-Bold font face */
+@font-face {
+  font-family: 'IRANSansX-Bold';
+  src: url('./assets/fonts/IRANSansX-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
+
+/* Define IRANSansX-Light font face */
+@font-face {
+  font-family: 'IRANSansX-Light';
+  src: url('./assets/fonts/IRANSansX-Light.woff') format('woff');
+  font-weight: 300; /* Assuming 'Light' corresponds to font-weight 300 */
+  font-style: normal;
+}
+
+/* Define IRANSansX-Medium font face */
+@font-face {
+  font-family: 'IRANSansX-Medium';
+  src: url('./assets/fonts/IRANSansX-Medium.woff') format('woff');
+  font-weight: 500; /* Assuming 'Medium' corresponds to font-weight 500 */
+  font-style: normal;
+}
+  
 
 @keyframes spin {
   from {

@@ -1,11 +1,11 @@
 // App.tsx
 import React from 'react';
-import MainPage from './MainPage';
+import Login from './login';
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <Login/>
     </div>
   );
 }
